@@ -3,7 +3,7 @@ version: '3'
 services:
    package-java-app:
       build:
-         context: ./boxfuse-sample-java-war-hello
+         context: /home/ubuntu/Lesson7
          dockerfile: Dockerfile
       volumes:
          - mydata:/usr/local/tomcat/webapps
